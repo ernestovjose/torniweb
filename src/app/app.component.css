@@ -1,0 +1,45 @@
+.example-spacer {
+    flex: 0.93 1 auto;
+  }
+
+
+#links {
+    font: 500 20px/32px Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+}
+#cart {
+    font: 500 20px/32px Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+}
+
+#cartIcon {
+    padding-bottom: 5px;
+}
+
+#logo {
+    padding-right: 16px;
+}
+
+.mat-icon {
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.mat-icon-button {
+    padding-left: 10px;
+}
+
+#logo {
+    padding-left: 40px;
+}
+
+.mat-toolbar.mat-primary {
+    background: #f0f0f0;
+    color: black;
+}
+
+#bannerimg {
+    width: 100%;
+}

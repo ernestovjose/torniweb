@@ -1,9 +1,39 @@
-mat-grid-tile {
-    background: orange;
+.filter {
+    display: block;
+    width: 100%;
+    padding: 40px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+mat-card-title {
+    text-transform: capitalize;
+}
+
+.miniatura {
+    height: 15%;
+}
+
+mat-card-content {
+    display: flex;
+    align-items: center;
+}
+
+.mat-card-title {
+    margin-bottom: 0px;
+}
+
+.example-spacer {
+    flex: 0.93 1 auto;
   }
 
-#list {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}  
+ul {
+    padding-right: 40px;
+}
+
+.content > mat-card {
+    margin-bottom: 16px;
+}

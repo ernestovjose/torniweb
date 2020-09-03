@@ -12,13 +12,18 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
+import { MatSelectModule } from '@angular/material/select';
 
 //Firebase
 
 import { AngularFireModule } from '@angular/fire';
 import { environment } from './environments/environment';
+import { AngularFirestoreModule} from '@angular/fire/firestore'
 
+//FxLayout
 
+import { FlexLayoutModule } from "@angular/flex-layout";
 
 
 @NgModule({
@@ -34,7 +39,11 @@ import { environment } from './environments/environment';
     MatIconModule,
     MatButtonModule,
     MatGridListModule,
-    AngularFireModule.initializeApp(environment.firebase)
+    MatSelectModule,
+    MatCardModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

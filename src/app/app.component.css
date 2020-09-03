@@ -1,5 +1,5 @@
 .example-spacer {
-    flex: 0.93 1 auto;
+    flex: 1.05 1 auto;
   }
 
 
@@ -15,7 +15,8 @@
 }
 
 #cartIcon {
-    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
 
 #logo {
@@ -28,7 +29,7 @@
 }
 
 .mat-icon-button {
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 #logo {
@@ -38,6 +39,10 @@
 .mat-toolbar.mat-primary {
     background: #f0f0f0;
     color: black;
+}
+.mat-toolbar {
+    padding-left: 28px;
+    padding-right: 40px;
 }
 
 #bannerimg {

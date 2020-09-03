@@ -1,16 +1,46 @@
-<div id="list">
-    <mat-grid-list cols="4" rowHeight="1:1" gutterSize="5%">
-        <mat-grid-tile>1</mat-grid-tile>
-        <mat-grid-tile>2</mat-grid-tile>
-        <mat-grid-tile>3</mat-grid-tile>
-        <mat-grid-tile>4</mat-grid-tile>
-        <mat-grid-tile>1</mat-grid-tile>
-        <mat-grid-tile>2</mat-grid-tile>
-        <mat-grid-tile>3</mat-grid-tile>
-        <mat-grid-tile>4</mat-grid-tile>
-        <mat-grid-tile>1</mat-grid-tile>
-        <mat-grid-tile>2</mat-grid-tile>
-        <mat-grid-tile>3</mat-grid-tile>
-        <mat-grid-tile>5</mat-grid-tile>
-    </mat-grid-list>
+<!-- <mat-card>Simple card</mat-card> -->
+
+<div class="filter">
+    <p>Productos</p>
+    <!-- <mat-form-field appearance="fill">
+        <mat-label>Favorite food</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let product of products" [value]="marca">
+            {{food.marca}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field> -->
 </div>
+
+<ul>    
+    <div class="content"  fxLayout="row wrap" fxLayoutGap="20px grid">
+        <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let product of products">
+            <mat-card class="mat-elevation-z4">
+                <!-- <mat-card-header>
+                    <mat-card-title>{{product.nombre}}</mat-card-title>
+                </mat-card-header> -->
+                <img mat-card-image [src]="product.url"/>
+                <mat-card-content>
+                    <!-- <p>{{product.marca}}</p> -->
+                    <mat-card-title>{{product.nombre}}</mat-card-title>
+                    <span class="example-spacer"></span>
+                    <button mat-mini-fab color="accent" aria-label="Example icon button with a plus one icon">
+                        <mat-icon>plus_one</mat-icon>
+                    </button>
+                </mat-card-content>
+            </mat-card>
+            <mat-card class="mat-elevation-z4">
+                <!-- <mat-card-header>
+                    <mat-card-title>{{product.nombre}}</mat-card-title>
+                </mat-card-header> -->
+                <img mat-card-image [src]="product.url"/>
+                <mat-card-content>
+                    <!-- <p>{{product.marca}}</p> -->
+                    <mat-card-title>{{product.nombre}}</mat-card-title>
+                    <span class="example-spacer"></span>
+                    <button mat-raised-button color="accent">Agregar</button>
+                </mat-card-content>
+            </mat-card>
+        </div>        
+    </div>
+</ul>

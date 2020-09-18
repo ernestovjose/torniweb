@@ -14,6 +14,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 //Firebase
 
@@ -24,6 +25,10 @@ import { AngularFirestoreModule} from '@angular/fire/firestore'
 //FxLayout
 
 import { FlexLayoutModule } from "@angular/flex-layout";
+
+//NgxPaginator
+
+import { NgxPaginationModule } from 'ngx-pagination';
 
 
 @NgModule({
@@ -41,9 +46,11 @@ import { FlexLayoutModule } from "@angular/flex-layout";
     MatGridListModule,
     MatSelectModule,
     MatCardModule,
+    MatPaginatorModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]

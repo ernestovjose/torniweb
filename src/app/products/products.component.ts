@@ -16,9 +16,6 @@ export class ProductsComponent implements OnInit {
     // screenReaderPageLabel: 'page',
     // screenReaderCurrentLabel: `You're on page`
 };
-  // productss = [];
-  // listLength: number;
-  // selectedMarca = this.products[1]; 
 
   constructor(
     public firestoreService: FirestoreService
@@ -27,13 +24,7 @@ export class ProductsComponent implements OnInit {
   ngOnInit(): void {
     this.firestoreService.getProducts().subscribe(products => {
       this.products = products;
-      // this.productss = this.products;
-      // this.listLength = this.productss.length;
-      // this.products = this.products.slice(0,1);
     });
-    
-    // console.log("hola");
-    // console.log(this.products.length);
   }
 
   // onPaginateChange(data) {

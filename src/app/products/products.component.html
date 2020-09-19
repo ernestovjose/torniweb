@@ -1,5 +1,3 @@
-<!-- <mat-card>Simple card</mat-card> -->
-
 <div class="product-title">
     <h2 id="sub-title">Productos</h2>
     <pagination-controls 
@@ -8,7 +6,6 @@
         (pageChange)="p = $event">
     </pagination-controls>
 </div>   
-
 
 <div class="content"  fxLayout="row wrap">
     <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let product of products | paginate: { itemsPerPage: 2, currentPage: p }">
@@ -22,5 +19,4 @@
             </mat-card-content>
         </mat-card>
     </div>
-    <!-- <pagination-controls (pageChange)="p = $event"></pagination-controls>       -->
 </div>

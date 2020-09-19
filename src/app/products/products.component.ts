@@ -9,6 +9,7 @@ import { FirestoreService } from '../services/firestore/firestore.service';
 export class ProductsComponent implements OnInit {
 
   products = [];
+  p;
   public labels: any = {
     previousLabel: 'Anterior',
     nextLabel: 'Siguiente',

@@ -15,7 +15,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
-import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatMenuModule } from '@angular/material/menu';
 
 //Firebase
 
@@ -48,7 +48,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
     MatGridListModule,
     MatSelectModule,
     MatCardModule,
-    MatPaginatorModule,
+    MatMenuModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
     FlexLayoutModule,

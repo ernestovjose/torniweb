@@ -3,16 +3,13 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    /* width: 50%; */
     padding: 40px;
 }
-
-/* h2 {
-    width: 50%;
-} */
+#spacer {
+    height: 50px;
+  }
 
 mat-paginator {
-    /* width: 50%; */
     font-size: large;
     margin-bottom: 16px;
 }
@@ -20,7 +17,6 @@ mat-paginator {
 .product-title #sub-title {
     font-size: 32px;
     font-weight: bold;
-    /* margin-right: 40px; */
 }
 
 p {

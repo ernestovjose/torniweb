@@ -1,5 +1,5 @@
 .product-title {
-    padding: 40px;
+    padding: 40px 40px 0px;
     text-align: center;
     text-decoration-line: underline;
 }
@@ -33,7 +33,7 @@ mat-grid-list {
     transform: translate(-50%, -40%);
     color: white;
     line-height: 1.5;
-    font-size: 6vw;
+    font-size: 4vw;
   }
 
 
@@ -60,7 +60,7 @@ mat-grid-list {
   }
 
 .mat-card-image {
-    /* height: 100px; */
+    height: 250px;
 }
 
 #more {

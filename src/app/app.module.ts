@@ -31,6 +31,7 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 
 import { NgxPaginationModule } from 'ngx-pagination';
 import { AboutComponent } from './about/about.component';
+import { ContacusComponent } from './contacus/contacus.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { AboutComponent } from './about/about.component';
     AppComponent,
     ProductsComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    ContacusComponent
   ],
   imports: [
     BrowserModule,

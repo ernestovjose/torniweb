@@ -1,10 +1,16 @@
 .product-title {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
+    margin-bottom: 50px;
+    padding-top: 8%; 
+    font-size: 60px;
+    padding-bottom: 40px; 
+    text-align: center; 
+    text-transform: uppercase; 
+    line-height:1.6em;
+    border-bottom: 1px solid #CCCCCC;
+    margin-left: 5%;
+    margin-right: 5%;
 }
+
 #spacer {
     height: 50px;
   }
@@ -37,10 +43,6 @@ mat-card-content {
     margin-bottom: 0px;
 }
 
-.example-spacer {
-    flex: 0.93 1 auto;
-  }
-
 .content {
     margin: 0 15px;
 }
@@ -54,9 +56,10 @@ mat-card-content {
     }
 
     .product-title {
-        margin: 40px;
+        /* margin: 40px; */
         padding: 0px;
         text-align: center;
+        padding-top: 15%; 
     }
     
     .product-title #sub-title {

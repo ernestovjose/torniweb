@@ -3,15 +3,15 @@
     <mat-icon id="menu">menu</mat-icon>
   </button>
   <mat-menu #menu="matMenu">
-    <button mat-menu-item routerLink="/home" routerLinkActive="active">
+    <button mat-menu-item routerLink="/home">
       <mat-icon>home</mat-icon>
       <span>Inicio</span>
     </button>
-    <button mat-menu-item routerLink="/products" routerLinkActive="active">
+    <button mat-menu-item routerLink="/products">
       <mat-icon>handyman</mat-icon>
       <span>Productos</span>
     </button>
-    <button mat-menu-item>
+    <button mat-menu-item routerLink="/about">
       <mat-icon>groups</mat-icon>
       <span>Acerca de nosotros</span>
     </button>
@@ -21,9 +21,9 @@
     </button>
   </mat-menu>
   <span id="logo">TORNI TUERCAS CUYUNI</span>
-  <a mat-button routerLink="/home" routerLinkActive="active" id="links">Inicio</a>
-  <a mat-button routerLink="/products" routerLinkActive="active" id="links">Productos</a>
-  <a mat-button routerLink="." target="_blank" id="links">Acerca de nosotros</a>
+  <a mat-button routerLink="/home" id="links">Inicio</a>
+  <a mat-button routerLink="/products" id="links">Productos</a>
+  <a mat-button routerLink="/about" id="links">Acerca de nosotros</a>
   <span class="example-spacer"></span>
   <div id="cart">
     <a mat-button href="https://www.google.com/" target="_blank" id="linkss" >

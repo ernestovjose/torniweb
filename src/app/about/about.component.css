@@ -1,0 +1,42 @@
+#about {
+    display:flex;
+    width:100%;
+    line-height:1.6em;
+    padding-top: 8%;
+    justify-content: center;
+}
+
+#about-us {
+    width: 80%;
+}
+
+#about-us h2{
+    margin-bottom: 50px; 
+    padding-bottom: 40px; 
+    font-size: 32px;
+    font-weight: bold; 
+    text-align: center; 
+    text-transform: uppercase; 
+    border-bottom: 1px solid #CCCCCC;
+    
+}
+#about-us img {
+    width: 100%;
+}
+
+#about-us #about-intro {
+    margin-bottom:50px;
+}
+#about-us #about-intro p {
+    margin:20px 0 0 0; 
+    padding-top: 20px;
+    margin-top:0;
+    font-size: large;
+}
+
+@media screen and (min-width: 300px) and (max-width: 580px) {
+
+    #about {
+        padding-top: 20%;
+    }
+}

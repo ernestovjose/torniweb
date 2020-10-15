@@ -1,12 +1,5 @@
-<div id="spacer"></div>
-
 <div class="product-title">
     <h2 id="sub-title">Productos</h2>
-    <pagination-controls 
-        [previousLabel]="labels.previousLabel"
-        [nextLabel]="labels.nextLabel"
-        (pageChange)="p = $event">
-    </pagination-controls>
 </div>   
 
 <div class="content"  fxLayout="row wrap" >
@@ -21,4 +14,9 @@
             </mat-card-content>
         </mat-card>
     </div>
+    <pagination-controls 
+        [previousLabel]="labels.previousLabel"
+        [nextLabel]="labels.nextLabel"
+        (pageChange)="p = $event">
+    </pagination-controls>
 </div>

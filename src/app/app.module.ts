@@ -30,13 +30,15 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 //NgxPaginator
 
 import { NgxPaginationModule } from 'ngx-pagination';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
